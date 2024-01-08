@@ -1,0 +1,123 @@
+
+.Lastview {
+	width: 750rpx;
+	height: 400rpx;
+	background-image: url("https://wuzixu.oss-cn-beijing.aliyuncs.com/index.jpg");
+	background-size: cover;
+}
+.swperbox {
+	position: relative;
+	top: -350rpx;
+	left: 25rpx;
+	width: 700rpx;
+	height: 400rpx;
+	border-radius: 30rpx;
+}
+.swiper-item {
+	border-radius: 20rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	/* 使背景图铺满父盒子 */
+	background-position: center;
+	/* 使背景图居中 */
+}
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1rpx 20rpx;
+}
+.product {
+	position: relative;
+	top: -300rpx;
+	width: 330rpx;
+	height: 450rpx;
+	margin-bottom: 20px;
+	border-radius: 20rpx;
+	background: whitesmoke;
+}
+.bookmsg {
+	position: relative;
+	top: -280rpx;
+	left: 325rpx;
+	padding-bottom: 20px;
+	font-family: "宋体", sans-serif;
+	font-size: 20px;
+}
+.bookimage {
+	border-top-left-radius: 20rpx;
+	/* 左上角的弧度半径 */
+	border-top-right-radius: 20rpx;
+	width: 100%;
+	height: 65%;
+}
+.bookname {
+	width: 95%;
+	height: 80rpx;
+	overflow: hidden;
+	white-space: normal;
+	/* 允许换行 */
+	word-wrap: break-word;
+	margin: 0 10rpx;
+	font-family: "宋体", sans-serif;
+	font-size: 18rpx;
+}
+.money {
+	width: 100%;
+	margin: 0 10rpx;
+	color: red;
+	display: flex;
+}
+.search-container {
+	position: relative;
+	top: -300rpx;
+	display: flex;
+	align-items: center;
+	padding: 30rpx;
+}
+input {
+	flex: 1;
+	height: 30rpx;
+	border: 1px solid #ccc;
+	padding: 15rpx;
+}
+.selectbutton {
+	width: 150rpx;
+	height: 60rpx;
+	background-color: #399;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+}
+.hot {
+	position: relative;
+	top: -300rpx;
+	width: 750rpx;
+	height: 200rpx;
+	display: flex;
+	margin-right: 5rpx;
+}
+.indexhot {
+	width: 165rpx;
+	height: 200rpx;
+	margin: 0rpx 12rpx;
+}
+.indexhot image {
+	width: 165rpx;
+	height: 150rpx;
+}
+.indexhot text {
+	margin-left: 15%;
+	font-size: 30rpx;
+}
+.end {
+	font-family: "宋体", sans-serif;
+	margin-left: 35%;
+	font-size: 30rpx;
+	color: black;
+}
+

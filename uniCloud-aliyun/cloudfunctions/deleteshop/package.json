@@ -1,0 +1,7 @@
+{
+  "name": "deleteshop",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

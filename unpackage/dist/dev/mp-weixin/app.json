@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/class",
+    "pages/shop/shop",
+    "pages/myspace/myspace",
+    "pages/bookmassage/bookmassage",
+    "pages/paybook/paybook"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "主页",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#399"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#399",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/icon/index.png",
+        "selectedIconPath": "/static/icon/index2.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "/static/icon/class.png",
+        "selectedIconPath": "/static/icon/class2.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "购物车",
+        "iconPath": "/static/icon/shop.png",
+        "selectedIconPath": "/static/icon/shop2.png"
+      },
+      {
+        "pagePath": "pages/myspace/myspace",
+        "text": "个人中心",
+        "iconPath": "/static/icon/space.png",
+        "selectedIconPath": "/static/icon/space2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

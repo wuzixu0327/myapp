@@ -1,0 +1,7 @@
+{
+  "name": "addbookshop",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

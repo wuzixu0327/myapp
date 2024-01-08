@@ -1,0 +1,42 @@
+
+#app {
+	display: flex;
+}
+.sidebar {
+	width: 120rpx;
+	height: 1214rpx;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+.category {
+	margin-bottom: 20px;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+}
+.category ._h2 {
+	font-size: 20rpx;
+}
+.category:hover {
+	background-color: #ddd;
+}
+.active {
+	background-color: #ddd;
+}
+.content {
+	flex: 1;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.content ._li {
+	margin-left: 30%;
+}
+.Content {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 75rpx;
+	margin: 5rpx;
+}
+

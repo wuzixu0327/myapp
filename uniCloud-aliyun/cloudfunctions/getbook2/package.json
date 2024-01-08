@@ -1,0 +1,7 @@
+{
+  "name": "getbook2",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

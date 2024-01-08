@@ -1,0 +1,17 @@
+{
+    "id": "lcw-select-address",
+    "displayName": "仿淘宝地址选择",
+    "version": "1.0.0",
+    "description": "仿淘宝地址选择 省市区选择 三级四级可选",
+    "keywords": [
+        "地址选择",
+        "省市区联动",
+        "三级四级可选"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getMater",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

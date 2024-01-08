@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "云上书店"
+			}
+		},
+		{
+			"path" : "pages/class/class",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/shop/shop",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myspace/myspace",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/bookmassage/bookmassage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "书本详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/paybook/paybook",
+			"style" : 
+			{
+				"navigationBarTitleText" : "支付界面",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "主页",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor":"#399"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#399",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath":"/static/icon/index.png",
+				"selectedIconPath": "/static/icon/index2.png"
+			},
+			{
+				"pagePath": "pages/class/class",
+				"text": "分类",
+				"iconPath":"/static/icon/class.png",
+				"selectedIconPath": "/static/icon/class2.png"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"text": "购物车",
+				"iconPath":"/static/icon/shop.png",
+				"selectedIconPath": "/static/icon/shop2.png"
+			},
+			{
+				"pagePath": "pages/myspace/myspace",
+				"text": "个人中心",
+				"iconPath":"/static/icon/space.png",
+				"selectedIconPath": "/static/icon/space2.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
